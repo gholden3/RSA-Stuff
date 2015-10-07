@@ -56,6 +56,10 @@ void RSA_Algorithm::PrintM(mpz_class M)
   cout << "M " << M << endl;
 }
 
+void RSA_Algorithm::PrintoutM(mpz_class outM){
+  cout << "out M" << outM << endl;
+}
+
 void RSA_Algorithm::PrintC(mpz_class C)
 { // Do not change this, right format for the grading script
   cout << "C " << C << endl;

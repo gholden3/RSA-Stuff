@@ -39,6 +39,8 @@ public:
   // Print plaintext message
   void PrintM(mpz_class M);
 
+  //print ouput M 
+  void PrintoutM(mpz_class outM);
   // Print Ciphertext message
   void PrintC(mpz_class C);
 
