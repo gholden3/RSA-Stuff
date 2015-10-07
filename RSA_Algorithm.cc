@@ -31,6 +31,10 @@ RSA_Algorithm::RSA_Algorithm()
 
 // Fill in the remainder of the RSA_Algorithm methods
 
+void RSA_Algorithm::PrintPQ()
+{
+  cout << "p " << p << "q " << q << endl;
+}
 
 void RSA_Algorithm::PrintND()
 { // Do not change this, right format for the grading script
@@ -56,7 +60,4 @@ void RSA_Algorithm::PrintC(mpz_class C)
 { // Do not change this, right format for the grading script
   cout << "C " << C << endl;
 }
-
-
-
 

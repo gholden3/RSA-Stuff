@@ -15,6 +15,7 @@ public:
   // Generate key
   void GenerateRandomKeyPair(size_t sz);
 
+
   // Encrypt plaintext message M with key  pair n/e
   // By convention, we will make the encryption key e the public key
   // and the decryption key d the private key.
@@ -30,6 +31,8 @@ public:
   // print n and e
   void PrintNE();
 
+  void PrintPQ();
+
   // Print n, d, and e
   void PrintNDE();
 
@@ -44,7 +47,8 @@ public:
   mpz_class n;  // p * q
   mpz_class e;  // Public encryption key
   mpz_class d;  // Private decryption key
-
+  mpz_class p;
+  mpz_class q;
   // Public Random number generator
 public:
   gmp_randclass rng;
