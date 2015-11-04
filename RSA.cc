@@ -43,7 +43,7 @@ int main()
         RSA.PrintC(C);
         //decrypt it 
         getC(&outM, &C, d, n);
-        RSA.PrintoutM(outM);
+        //RSA.PrintoutM(outM);
       }
     }
 

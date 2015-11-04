@@ -38,17 +38,17 @@ void RSA_Algorithm::PrintPQ()
 
 void RSA_Algorithm::PrintND()
 { // Do not change this, right format for the grading script
-  cout << "n " << n << " d " << d << endl;
+  cout << "n " << n << endl << " d " << d << endl;
 }
 
 void RSA_Algorithm::PrintNE()
 { // Do not change this, right format for the grading script
-  cout << "n " << n << " e " << e << endl;
+  cout << "n " << n << endl << " e " << e << endl;
 }
 
 void RSA_Algorithm::PrintNDE()
 { // Do not change this, right format for the grading script
-  cout << "n " << n << " d " << d << " e " << e << endl;
+  cout << "n " << n << endl << " d " << d << endl << " e " << e << endl;
 }
 
 void RSA_Algorithm::PrintM(mpz_class M)
